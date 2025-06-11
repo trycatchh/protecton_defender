@@ -1,4 +1,4 @@
-<a href="#">🇺🇸 For English</a>
+<a href="https://github.com/trycatchh/protecton_defender/blob/documents/English/Main%20Throught.md">🇺🇸 For English</a>
 
 ### Ağ Trafiğini Dinleme
 - Ağ arayüzünden (eth0 gibi) gelen tüm paketleri dinler.
