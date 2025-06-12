@@ -1,3 +1,5 @@
+<a href="https://github.com/trycatchh/protecton_defender/blob/documents/English/Abnormal%20Traffic%20Detection.md">🇺🇸 For English</a>
+
 ### 1. İstatistiksel Temelli Yöntemler
 - **Eşik Değer Sistemi (Thresholding)**
   - Belirli zaman aralığında IP başına paket sayısı
