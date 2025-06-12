@@ -1,4 +1,4 @@
-<a href="https://github.com/trycatchh/protecton_defender/blob/documents/English/Listenin%20Network%20Traffic.md">🇺🇸 For English</a>
+<a href="https://github.com/trycatchh/protecton_defender/blob/documents/English/Listen%20Network%20Traffic.md">🇺🇸 For English</a>
 
 ### Ağ Trafiğini Dinleme
 C dilinde ağ trafiğini dinlemek için gelenellikle Libcap kütüphanesi kullanılır. Bu, ağ paketlerini yakalamak için endüstri standartı yaklaşımıdır.
