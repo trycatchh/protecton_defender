@@ -1,6 +1,6 @@
 <a href="https://github.com/trycatchh/protecton_defender/blob/documents/English/Main%20Throught.md">🇺🇸 For English</a>
 
-### Ağ Trafiğini Dinleme
+### [Ağ Trafiğini Dinleme](https://github.com/trycatchh/protecton_defender/blob/documents/A%C4%9F%20Trafi%C4%9Fini%20Dinleme.md)
 - Ağ arayüzünden (eth0 gibi) gelen tüm paketleri dinler.
 - Kaynak IP adreslerini ve paket sayılarını takip eder.
 
