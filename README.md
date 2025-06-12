@@ -4,7 +4,6 @@
 
 # DDOS Defender
 ![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
-![GitHub stars](https://img.shields.io/github/stars/trycatchh/protecton_defender?style=flat-square)
 ![GitHub forks](https://img.shields.io/github/forks/trycatchh/protecton_defender?style=flat-square)
 ![GitHub license](https://img.shields.io/github/license/trycatchh/protecton_defender?style=flat-square)
 
