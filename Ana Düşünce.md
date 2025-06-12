@@ -4,7 +4,7 @@
 - Ağ arayüzünden (eth0 gibi) gelen tüm paketleri dinler.
 - Kaynak IP adreslerini ve paket sayılarını takip eder.
 
-### Anormal Trafik Tespiti
+### [Anormal Trafik Tespiti](https://github.com/trycatchh/protecton_defender/blob/documents/Anormal%20Trafik%20Tespiti.md)
 - Her IP için belirli zaman aralığında (örnek: 10 saniye) gelen paket sayısını sayar.
 - Önceden belirlendiği eşik değerini (örnek: 100 paket) aşan IP'leri potansiyel saldırgan olarak işaretler.
 
