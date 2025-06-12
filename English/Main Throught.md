@@ -1,10 +1,10 @@
 <a href="https://github.com/trycatchh/protecton_defender/blob/documents/Ana%20D%C3%BC%C5%9F%C3%BCnce.md">🇹🇷 For Turkish</a>
 
-### [Network Traffic Monitoring](https://github.com/trycatchh/protecton_defender/blob/documents/English/Listenin%20Network%20Traffic.md)
+### [Network Traffic Monitoring](https://github.com/trycatchh/protecton_defender/blob/documents/English/Listen%20Network%20Traffic.md)
 - Listens to all packets coming from the network interface (such as eth0).
 - Tracks source IP addresses and packet counts.
 
-### [Anomalous Traffic Detection](https://github.com/trycatchh/protecton_defender/blob/documents/Anormal%20Trafik%20Tespiti.md)
+### [Anomalous Traffic Detection](https://github.com/trycatchh/protecton_defender/blob/documents/English/Abnormal%20Traffic%20Detection.mdhttps://github.com/trycatchh/protecton_defender/blob/documents/English/Abnormal%20Traffic%20Detection.md)
 - Counts the number of packets received from each IP within a specific time window (e.g., 10 seconds).
 - Flags IPs that exceed a predefined threshold (e.g., 100 packets) as potential attackers.
 
