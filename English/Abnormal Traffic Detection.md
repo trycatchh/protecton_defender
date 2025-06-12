@@ -1,4 +1,4 @@
-<a href="#">🇹🇷 For Turkish</a>
+<a href="https://github.com/trycatchh/protecton_defender/blob/documents/Anormal%20Trafik%20Tespiti.md">🇹🇷 For Turkish</a>
 
 ### 1. Statistical-Based Methods
 - **Thresholding System**
