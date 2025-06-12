@@ -11,4 +11,4 @@
 C DDOS Defender is a mild but effective DDOS defense solution developed in C language. It detects abnormal traffic models by making real -time network traffic analysis and automatically prevents potential attackers.
 
 <br><br>
-``The project is now being developed...``
+``The project is now being developed...`` [Support us](https://discord.gg/mepa8X7j6w)
