@@ -4,7 +4,7 @@
 - Listens to all packets coming from the network interface (such as eth0).
 - Tracks source IP addresses and packet counts.
 
-### Anomalous Traffic Detection
+### [Anomalous Traffic Detection](https://github.com/trycatchh/protecton_defender/blob/documents/Anormal%20Trafik%20Tespiti.md)
 - Counts the number of packets received from each IP within a specific time window (e.g., 10 seconds).
 - Flags IPs that exceed a predefined threshold (e.g., 100 packets) as potential attackers.
 
