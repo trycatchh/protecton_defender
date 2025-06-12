@@ -4,7 +4,6 @@
 
 # DDOS Defender
 ![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
-![GitHub forks](https://img.shields.io/github/forks/trycatchh/protecton_defender?style=flat-square)
 ![GitHub license](https://img.shields.io/github/license/trycatchh/protecton_defender?style=flat-square)
 
 C DDOS Defender is a mild but effective DDOS defense solution developed in C language. It detects abnormal traffic models by making real -time network traffic analysis and automatically prevents potential attackers.
