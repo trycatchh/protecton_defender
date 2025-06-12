@@ -8,7 +8,7 @@
 - Her IP için belirli zaman aralığında (örnek: 10 saniye) gelen paket sayısını sayar.
 - Önceden belirlendiği eşik değerini (örnek: 100 paket) aşan IP'leri potansiyel saldırgan olarak işaretler.
 
-### Engelleme Mekanizması
+### [Engelleme Mekanizması](https://github.com/trycatchh/protecton_defender/blob/documents/Engelleme%20Mekanizmas%C4%B1.md)
 - Şüpheli IP'leri engellemek için iptables (Linux Firewall; Windows için farklı çözümler kullanılır) kullanır.
 - Engelleme süresi için zaman aşımı koyar.
 
