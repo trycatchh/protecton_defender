@@ -8,7 +8,7 @@
 - Counts the number of packets received from each IP within a specific time window (e.g., 10 seconds).
 - Flags IPs that exceed a predefined threshold (e.g., 100 packets) as potential attackers.
 
-### Blocking Mechanism
+### [Blocking Mechanism](https://github.com/trycatchh/protecton_defender/blob/documents/English/Blocking%20Mechanism.md)
 - Uses iptables (Linux firewall; different solutions apply for Windows) to block suspicious IPs.
 - Applies a timeout for the blocking duration.
 
