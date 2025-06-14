@@ -1,0 +1,2 @@
+/usr/bin/ar qc libnetwork_lib.a CMakeFiles/network_lib.dir/listener.c.o CMakeFiles/network_lib.dir/detector.c.o CMakeFiles/network_lib.dir/blocker.c.o
+/usr/bin/ranlib libnetwork_lib.a
