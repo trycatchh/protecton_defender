@@ -1,6 +1,8 @@
 #ifndef BLOCKER_H
 #define BLOCKER_H
 
+#include <stdint.h>
+
 void block_ip_iptables(const char *ip);
 void block_ip_ipset(const char *ip);
 void unblock_ip_ipset(const char *ip);
