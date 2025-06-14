@@ -2,9 +2,10 @@
 #include <stdlib.h>
 
 #include "network/listener.h"
+#include "network/detector.h"
 
 int main() {
-    Listener();
+    listener_interface();
 
     return 0;
 }
