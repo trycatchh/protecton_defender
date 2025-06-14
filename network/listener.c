@@ -53,7 +53,7 @@ struct udpheader {
 };
 
 void Listener() {
-    pcap_if_t *alldevs, *device; // Devices
+    pcap_if_t *alldevs; // Devices
     char *dev_name; // Default device
     
     if (pcap_findalldevs(&alldevs, errbuf) == -1) {
