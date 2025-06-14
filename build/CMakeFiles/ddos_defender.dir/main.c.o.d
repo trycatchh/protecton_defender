@@ -77,4 +77,5 @@ CMakeFiles/ddos_defender.dir/main.c.o: \
  /usr/include/netdb.h /usr/include/netinet/in.h \
  /usr/include/x86_64-linux-gnu/bits/in.h /usr/include/rpc/netdb.h \
  /usr/include/x86_64-linux-gnu/bits/netdb.h /usr/include/arpa/inet.h \
- /usr/include/pcap/bpf.h /usr/include/pcap/dlt.h
+ /usr/include/pcap/bpf.h /usr/include/pcap/dlt.h \
+ /home/yaga/Desktop/Git/protecton_defender/include/network/detector.h
