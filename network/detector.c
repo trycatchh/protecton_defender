@@ -1,4 +1,5 @@
 #include "../include/network/detector.h"
+#include "../include/network/blocker.h"
 #include "definitions/headers.h"
 
 #include <stdio.h>
@@ -153,4 +154,49 @@ void anlyze_tcp(const unsigned char *packet) {
     
     // General packet anomaly detection
     detect_anomaly(src_ip);
+}
+
+void enhanced_detect_anomaly(const char *current_ip) {
+    // time_t current_time = time(NULL);
+    
+    detect_anomaly(current_ip);
+    
+    for (int i = 0; i < ip_count; i++) {
+        if (strcmp(ip_list[i].ip, current_ip) == 0) {
+            if (ip_list[i].packet_count > THRESHOLD * 2) {
+                printf("[DETEC/AUTO-BLOCK] Auto-blocking %s due to excessive packets: %d\n", 
+                       current_ip, ip_list[i].packet_count);
+                auto_block_ip(current_ip);
+            }
+            return;
+        }
+    }
+}
+
+void enhanced_anlyze_tcp(const unsigned char *packet) {
+    // Call existing TCP analysis
+    anlyze_tcp(packet);
+    
+    // Extract IP for additional checks
+    struct ipheader *iphdr = (struct ipheader*)(packet + sizeof(struct ethheader));
+    char src_ip[INET_ADDRSTRLEN];
+    inet_ntop(AF_INET, &(iphdr->iph_sourceip), src_ip, INET_ADDRSTRLEN);
+    
+    // Check for immediate blocking conditions
+    float ratio = get_syn_ack_ratio(src_ip);
+    if (ratio > 5.0) { // Very high ratio - immediate block
+        printf("[DETEC/CRITICAL] Critical SYN flood detected from %s - Auto-blocking\n", src_ip);
+        auto_block_ip(src_ip);
+    }
+    
+    // Check SYN count for immediate action
+    for (int i = 0; i < syn_tracker_count; i++) {
+        if (strcmp(syn_trackers[i].ip, src_ip) == 0) {
+            if (syn_trackers[i].syn_count > SYN_FLOOD_THRESHOLD * 2) {
+                printf("[DETEC/CRITICAL] Excessive SYN packets from %s - Auto-blocking\n", src_ip);
+                auto_block_ip(src_ip);
+            }
+            break;
+        }
+    }
 }
