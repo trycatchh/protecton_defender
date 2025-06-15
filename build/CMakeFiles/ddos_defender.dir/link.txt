@@ -1,1 +1,0 @@
-/usr/bin/cc -Wl,--dependency-file=CMakeFiles/ddos_defender.dir/link.d CMakeFiles/ddos_defender.dir/main.c.o -o ddos_defender  network/libnetwork_lib.a -lpcap -lnetfilter_queue -lnfnetlink
