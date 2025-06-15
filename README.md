@@ -10,3 +10,5 @@ C DDOS Defender is a mild but effective DDOS defense solution developed in C lan
 
 <br><br>
 ``The project is now being developed...`` [Support us](https://discord.gg/mepa8X7j6w)
+
+> FOR YOUR INFORMATION: Project development has been stopped.
